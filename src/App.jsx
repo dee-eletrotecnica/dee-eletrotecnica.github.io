@@ -1,10 +1,23 @@
 import './App.css'
+import { Card } from './components/card'
+import { Header } from './components/header'
+import { Footer } from './components/footer'
 
 function App() {
 
   return (
     <>
-      <h1>DEE Eletrotécnica</h1>
+      <Header />
+      <div className="wrapper">
+        <div className="container">
+          <Card title={"CEFET-MG"} text={"texto..."} link={"Link"} />
+          <Card title={"DEE"} text={"Departamento de Engenharia Eleétrica"} link={"#"}/>
+          <Card title={"Curso de Eletrotécnica"} text={"texto..."} link={"#"}/>
+          <Card title={"Mostra de Cursos"} text={"texto..."} link={"#"}/>
+          <Card title={"GitHub de Professores"} text={"texto..."} link={"#"}/>
+        </div>
+      </div>
+      <Footer />
     </>
   )
 }
