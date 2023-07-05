@@ -1,24 +1,15 @@
 import './App.css'
-import { Card } from './components/card'
-import { Header } from './components/header'
-import { Footer } from './components/footer'
+import { CursoEletrotecnica } from './components/pages/curso-eletroeletronica'
+import { Home } from './components/pages/home'
+import { Routes, Route} from 'react-router-dom'
 
 function App() {
 
   return (
-    <>
-      <Header />
-      <div className="wrapper">
-        <div className="container">
-          <Card title={"CEFET-MG"} text={"texto..."} link={"Link"} />
-          <Card title={"DEE"} text={"Departamento de Engenharia Elétrica"} link={"#"}/>
-          <Card title={"Curso de Eletrotécnica"} text={"texto..."} link={"#"}/>
-          <Card title={"Mostra de Cursos"} text={"texto..."} link={"#"}/>
-          <Card title={"GitHub dos Professores"} text={"texto..."} link={"#"}/>
-        </div>
-      </div>
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/curso-eletrotecnica" element={<CursoEletrotecnica />}/>
+    </Routes>
   )
 }
 
