@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { HeaderStyles } from './styles'
+import { Routes, Route} from 'react-router-dom'
 
 
 export const Header = () => {
@@ -8,7 +9,7 @@ export const Header = () => {
         <HeaderStyles>
             <div className="header-logo">
                 <Link to="/">
-                    <img src={""} alt="logo" />
+                    <img src="" alt="" />
                 </Link>
             </div>
             <div className="header-nav">
