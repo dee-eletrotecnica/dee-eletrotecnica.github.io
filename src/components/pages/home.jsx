@@ -10,8 +10,8 @@ export const Home = () => {
     return (
         <>
         <Header />
-      <div className="wrapper">
       <IntroComponent />
+      <div className="wrapper">
         <main className="container">
           <Card title={"CEFET-MG"} desc={"Descrição..."} item1={{title: "Item1", external: ""}} item2={{title: "Item2", external: ""}} item3={{title: "Item3", external: ""}} page={"https://www.cefetmg.br/"} />
           <Card title={"DEE"} item1={{title: "Item1", external: ""}} item2={{title: "Item2", external: ""}} item3={{title: "Item3", external: ""}} desc={"Departamento de Engenharia Elétrica"} page={"#"}/>
