@@ -1,7 +1,8 @@
-import './App.css'
-import { CursoEletrotecnica } from './components/pages/curso-eletroeletronica'
-import { Home } from './components/pages/home'
-import { Routes, Route} from 'react-router-dom'
+import './App.css';
+import { TestePage } from './pages/Teste';
+import { CursoEletrotecnica } from './pages/curso-eletroeletronica';
+import { Home } from './pages/home';
+import { Routes, Route} from 'react-router-dom';
 
 function App() {
 
@@ -13,4 +14,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

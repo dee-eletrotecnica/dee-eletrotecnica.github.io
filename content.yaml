@@ -1,0 +1,34 @@
+---
+- repositories:
+    repo1:
+      url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
+      title: "Ecossistema-didatico"
+      description: "Descrição..."
+      items:
+        item1: "Item 1"
+        item2: "Item 2"
+        item3: "Item 3"
+    repo2:
+      url: "https://github.com/Epaminondaslage/OpenPLC"
+      title: "OpenPLC"
+      description: "Descrição..."
+      items:
+        item1: "Item 1"
+        item2: "Item 2"
+        item3: "Item 3"
+    repo3:
+      url: "https://github.com/Epaminondaslage/Kit-IoT"
+      title: "Kit-IoT"
+      description: "Descrição..."
+      items:
+        item1: "Item 1"
+        item2: "Item 2"
+        item3: "Item 3"
+    repo4:
+      url: "https://github.com/Epaminondaslage/Kit-SBC-Linux"
+      title: "KIT-SBC-Linux"
+      description: "Descrição..."
+      items:
+        item1: "Item 1"
+        item2: "Item 2"
+        item3: "Item 3"
