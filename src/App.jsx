@@ -29,7 +29,7 @@ function App() {
     <Routes>
       <Route path="/home" element={<Home />}/>
       {Array.from(new Set(repoObj)).map(item => (
-        <Route path={`/home${item.title}`} element={<DynamicPage content={item} />}/>
+        <Route path={`/home/${item.title}`} element={<DynamicPage content={item} />}/>
         ))} 
       <Route path="*" element={<>DEADLINE</>}/>
     </Routes>
