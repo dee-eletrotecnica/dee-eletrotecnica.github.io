@@ -9,7 +9,12 @@ export const DynamicPage = ({ content }) => {
         <>
         <Header />
         <h1>{content.title}</h1>
-        <h1>teste</h1>
+        <p>{content.description}</p>
+        <ul>
+        {Object.values(content.items).map((item) => (
+            <li key={item}>{item}</li>
+        ))}
+        </ul>
         </>
     )
 }

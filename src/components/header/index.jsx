@@ -7,7 +7,7 @@ export const Header = () => {
     return (
         <HeaderStyles>
             <div className="header-logo">
-                <Link to="/" element={<Home />}>
+                <Link to="/home" element={<Home />}>
                     <img src="" alt="" />
                 </Link>
             </div>

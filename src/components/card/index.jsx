@@ -3,6 +3,7 @@ import { CardStyle } from "./styles"
 import { Link } from "react-router-dom"
 import { useEffect } from "react";
 import { getRawMarkdown } from "../../utils/getRawMarkdown";
+import { DynamicPage } from "../../pages/DynamicPage";
 
 export const Card = ({url, title, desc, items}) => {
 
@@ -21,7 +22,7 @@ export const Card = ({url, title, desc, items}) => {
                 <a href={url} target="_blank" rel="noreferrer" className="card-item">{items.item1}</a>
                 <a href={url} target="_blank" rel="noreferrer" className="card-item">{items.item2}</a>
                 <a href={url} target="_blank" rel="noreferrer" className="card-item">{items.item3}</a>
-            <Link to={""} element={<CursoEletrotecnica />} className="linkto">Acessar</Link>
+            <Link to={title} element={<DynamicPage />} className="linkto">Acessar</Link>
             </div>
         </div>
         </CardStyle>
