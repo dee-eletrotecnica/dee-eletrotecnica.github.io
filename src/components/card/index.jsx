@@ -1,8 +1,6 @@
-import { CursoEletrotecnica } from "../../pages/curso-eletroeletronica"
 import { CardStyle } from "./styles"
 import { Link } from "react-router-dom"
 import { useEffect } from "react";
-import { getRawMarkdown } from "../../utils/getRawMarkdown";
 import { DynamicPage } from "../../pages/DynamicPage";
 
 export const Card = ({url, title, desc, items}) => {

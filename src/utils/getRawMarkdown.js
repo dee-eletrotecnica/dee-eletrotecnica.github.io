@@ -9,7 +9,7 @@ export async function getRawMarkdown(repoObj) {
 
     result = await axios.get(formatedUrl)
     
-    console.log(result.length > 0)
+    console.log(!result.length > 0)
     if(result.length > 0) {
         result = await axios.get(formatedUrlMain)
     }
