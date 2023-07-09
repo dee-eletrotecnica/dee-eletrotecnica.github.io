@@ -1,7 +1,5 @@
 import './App.css';
 import { DynamicPage } from './pages/DynamicPage';
-import { TestePage } from './pages/Teste';
-import { CursoEletrotecnica } from './pages/curso-eletroeletronica';
 import { Home } from './pages/home';
 import { Routes, Route} from 'react-router-dom';
 import { useState, useEffect } from 'react';
@@ -11,7 +9,6 @@ import content from "../content.yaml";
 function App() {
 
   const [repoObj, setRepoObj] = useState([]);
-  console.log(repoObj);
   
   async function buscarDados(repositories) {
     for (let repo in repositories) {
