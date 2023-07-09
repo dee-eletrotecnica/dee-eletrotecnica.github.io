@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { HeaderStyles } from './styles'
-import { Home } from '../../pages/home'
+import { Home } from '../../pages/home/Home'
 
 export const Header = () => {
 
@@ -8,7 +8,7 @@ export const Header = () => {
         <HeaderStyles>
             <div className="header-logo">
                 <Link to="/" element={<Home />}>
-                    <img src="" alt="" />
+                    <img src="" alt="LOGO" />
                 </Link>
             </div>
             <div className="header-nav">

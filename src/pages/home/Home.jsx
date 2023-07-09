@@ -1,9 +1,9 @@
-import { Card } from '../components/card';
-import { Header } from '../components/header';
-import { Footer } from '../components/footer';
-import { IntroComponent } from '../components/introComponent';
+import { Card } from '../../components/card';
+import { Header } from '../../components/header';
+import { Footer } from '../../components/footer';
+import { IntroComponent } from '../../components/introComponent';
 import { useState, useEffect } from 'react';
-import content from "../../content.yaml";
+import content from "../../../conteudo.yaml";
 
 
 export const Home = () => {
@@ -28,7 +28,7 @@ export const Home = () => {
           <main className="container">
             {repoObj.map(item => (
               <div key={item.url}>
-                <Card children={item.url} title={item.title} desc={item.desc} items={item.items}/>
+                <Card children={item.url} title={item.title} desc={item.desc} items={item.items} color={item.color}/>
               </div>
           ))} 
           </main>

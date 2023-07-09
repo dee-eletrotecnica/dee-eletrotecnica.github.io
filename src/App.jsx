@@ -1,9 +1,9 @@
 import './App.css';
-import { DynamicPage } from './pages/DynamicPage';
-import { Home } from './pages/home';
+import { CardPage } from './pages/cardPage/CardPage';
+import { Home } from './pages/home/Home';
 import { Routes, Route} from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import content from "../content.yaml";
+import content from "../conteudo.yaml";
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}/>
       {Array.from(new Set(repoObj)).map(item => (
-        <Route key={`${item.url}`} path={`/${item.title}`} element={<DynamicPage content={item} />}/>
+        <Route key={`${item.url}`} path={`/${item.title}`} element={<CardPage content={item} />}/>
         ))} 
       <Route path="*" element={<>DEADLINE</>}/>
     </Routes>

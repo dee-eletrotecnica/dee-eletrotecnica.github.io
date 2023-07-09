@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 
-export const CardStyle = styled.div`
+export const CardStyle = styled.div.attrs((props) => ({color: props.color}))`
     width: 300px;
     min-width: 150px;
     border-radius: 5px;
@@ -22,7 +22,8 @@ export const CardStyle = styled.div`
         width: 100%;
         height: 50px;
         background-color: #CFDEE7;
-        border-radius: 5px 0px 5px 1px;
+        border-left: 5px solid ${(props) => props.color};
+        border-radius: 5px 5px 1px 5px;
         margin: 0 auto;
     }
 
