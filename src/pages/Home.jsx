@@ -23,17 +23,17 @@ export const Home = () => {
     return (
         <>
         <Header />
-      <IntroComponent />
-      <div className="wrapper">
-        <main className="container">
-          {repoObj.map(item => (
-            <div key={item.url}>
-              <Card children={item.url} title={item.title} desc={item.desc} items={item.items}/>
-            </div>
-        ))} 
-        </main>
-      </div>
-      <Footer />
+        <IntroComponent />
+        <div className="wrapper">
+          <main className="container">
+            {repoObj.map(item => (
+              <div key={item.url}>
+                <Card children={item.url} title={item.title} desc={item.desc} items={item.items}/>
+              </div>
+          ))} 
+          </main>
+        </div>
+        <Footer />
         </>
     )
 }
