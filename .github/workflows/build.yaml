@@ -21,6 +21,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+      - run: yarn install --registry=https://registry.yarnpkg.com/
       - run: yarn
       - run: yarn run build
       - run: gh-pages -d dist
