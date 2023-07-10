@@ -22,9 +22,9 @@ jobs:
           MY_EMAIL: dee-eletrotecnica@gmail.com
           MY_NAME: dee-eletrotecnica
         run: |
-          git config --global user.email "dee-eletrotecnica@gmail.com"
+          git config --global user.email "iotdeeele@gmail.com"
           git config --global user.name "dee-eletrotecnica"
-          git remote set-url origin https://dee-eletrotecnica:${{ secrets.GH_SECRET }}@github.com/dee-eletrotecnica/dee-eletrotecnica.github.io.git
+          git remote set-url origin https://iotdeeele@gmail.com:${{ secrets.GH_SECRET }}@github.com/dee-eletrotecnica/dee-eletrotecnica.github.io.git
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
