@@ -25,4 +25,5 @@ jobs:
             yarn cache clean
             yarn install --frozen-lockfile
             yarn run build
+            yarn add gh-pages
             gh-pages -d dist
