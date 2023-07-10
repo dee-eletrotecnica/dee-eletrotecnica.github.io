@@ -19,9 +19,9 @@ jobs:
     steps:
       - name: Set Git user information
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
-      - uses: actions/checkout@v2
+          git config --global user.email "iotdeeele@gmail.com"
+          git config --global user.name "dee-eletrotecnica"
+      - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
