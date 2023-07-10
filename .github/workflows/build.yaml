@@ -22,6 +22,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: |
-            yarn install --registry=https://registry.yarnpkg.com/
+            yarn cache clean
             yarn install --frozen-lockfile
             yarn run build
