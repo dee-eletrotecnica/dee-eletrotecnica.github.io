@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           if [ -e yarn.lock ]; then
+          yarn config set registry https://registry.npmjs.org
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
           npm ci
