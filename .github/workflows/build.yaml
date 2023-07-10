@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x, 20.x]
+        node-version: [18.16.0]
 
     steps:
       - uses: actions/checkout@v3
@@ -21,7 +21,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn install --registry=https://registry.yarnpkg.com/
       - run: yarn
       - run: yarn run build
       - run: gh-pages -d dist
