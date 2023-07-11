@@ -26,13 +26,11 @@ jobs:
           git config --global user.name "dee-eletrotecnica"
       - uses: actions/checkout@v3
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
           repository: dee-eletrotecnica/dee-eletrotecnica.github.io
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
             yarn install --frozen-lockfile
             yarn run build
