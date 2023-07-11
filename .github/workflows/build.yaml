@@ -17,11 +17,6 @@ jobs:
         node-version: [18.16.0]
 
     steps:
-      - name: Set Git user information
-        run: |
-          git config --global user.email "paulo@planetfone.com.br"
-          git config --global user.name "PauloR43"
-          git remote set-url origin https://PauloR43:${{ secrets.GH_SECRET }}@github.com/dee-eletrotecnica/dee-eletrotecnica.github.io.git
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
