@@ -15,8 +15,9 @@ jobs:
     strategy:
       matrix:
         node-version: [18.16.0]
-        
+
     steps:
+      - name: Set Git user information
         run: |
           git config --global user.email "paulo@planetfone.com.br"
           git config --global user.name "PauloR43"
