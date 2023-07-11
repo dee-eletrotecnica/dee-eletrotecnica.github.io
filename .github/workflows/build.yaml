@@ -19,8 +19,8 @@ jobs:
     steps:
       - name: Set Git user information
         env:
-          MY_EMAIL: kevin.hooke@gmail.com
-          MY_NAME: kevinhooke
+          MY_EMAIL: iotdeeele@gmail.com
+          MY_NAME: dee-eletrotecnica
         run: |
           git config --global user.email $MY_EMAIL
           git config --global user.name $MY_NAME
