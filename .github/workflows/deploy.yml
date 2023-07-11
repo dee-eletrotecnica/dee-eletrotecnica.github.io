@@ -20,6 +20,7 @@ jobs:
 
       - name: Build and deploy
         run: |
+          yarn
           yarn run build
 
       - name: Deploy to GitHub Pages
