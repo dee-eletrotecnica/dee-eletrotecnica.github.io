@@ -14,7 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn predeploy && npx gh-pages -d dist"
+      "pre-commit": "yarn predeploy && yarn deploy"
     }
   },
   "dependencies": {
