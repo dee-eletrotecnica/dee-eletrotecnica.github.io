@@ -22,9 +22,9 @@ jobs:
           MY_EMAIL: "iotdeeele@gmail.com"
           MY_NAME: "dee-eletrotecnica"
         run: |
-          git config --global user.email $MY_EMAIL
-          git config --global user.name $MY_NAME
-          git remote set-url origin https://$MY_NAME:${{ secrets.GITHUB_TOKEN }}@github.com/dee-eletrotecnica/dee-eletrotecnica.github.io.git
+          git config --global user.email "iotdeeele@gmail.com"
+          git config --global user.name "dee-eletrotecnica"
+          git remote set-url origin https://dee-eletrotecnica:${{ secrets.GITHUB_TOKEN }}@github.com/dee-eletrotecnica/dee-eletrotecnica.github.io.git
       - uses: actions/checkout@v3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
