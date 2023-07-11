@@ -28,5 +28,3 @@ jobs:
           yarn run build
           npx gh-pages -d dist
       - uses: actions/checkout@v3
-        with:
-          repository: dee-eletrotecnica/dee-eletrotecnica.github.io
