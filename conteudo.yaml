@@ -9,13 +9,13 @@
       items:
         item1:
           title: "Kit internet das coisas (IoT)"
-          url: "https://github.com/Epaminondaslage/Kit-IoT"
+          url: "https://github.com/Epaminondaslage/Kit-IoT#introdu%C3%A7%C3%A3o"
         item2: 
           title: "Kit SBC Linux"
-          url: "https://github.com/Epaminondaslage/Kit-SBC-Linux"
+          url: "https://github.com/Epaminondaslage/Kit-SBC-Linux#%C3%ADndice"
         item3: 
           title: "OpenPLC"
-          url: "https://github.com/Epaminondaslage/OpenPLC"
+          url: "https://github.com/Epaminondaslage/OpenPLC#%C3%ADndice"
     repo2:
       color: "#A0C49D"
       url: ""
