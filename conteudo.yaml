@@ -19,7 +19,7 @@
     repo2:
       color: "#A0C49D"
       url: ""
-      title: "Titulo"
+      title: "Título"
       description: "Descrição..."
       items:
         item1: "Item 1"
