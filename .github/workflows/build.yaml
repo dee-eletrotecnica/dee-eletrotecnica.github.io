@@ -24,14 +24,9 @@ jobs:
         run: |
           git config --global user.email "iotdeeele@gmail.com"
           git config --global user.name "dee-eletrotecnica"
+          yarn install --frozen-lockfile
+          yarn run build
+          npx gh-pages -d dist
       - uses: actions/checkout@v3
         with:
           repository: dee-eletrotecnica/dee-eletrotecnica.github.io
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-      - run: |
-            yarn install --frozen-lockfile
-            yarn run build
-            npx gh-pages -d dist
