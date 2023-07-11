@@ -21,7 +21,6 @@ jobs:
         run: |
           git config --global user.email "iotdeeele@gmail.com"
           git config --global user.name "dee-eletrotecnica"
-          git remote set-url origin git@github.com:dee-eletrotecnica/dee-eletrotecnica.github.io.git
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -32,7 +31,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-            git config --list
             yarn install --frozen-lockfile
             yarn run build
             npx gh-pages -d dist
