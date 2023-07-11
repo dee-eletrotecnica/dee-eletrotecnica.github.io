@@ -9,7 +9,7 @@ export const CardPageStyles = styled.div`
             color: rgba(0,0,0,.5);
         }
 
-        .line {
+        .separator {
             width: 95vw;
             border-bottom: 1px solid rgba(0,0,0,.2);
         }
