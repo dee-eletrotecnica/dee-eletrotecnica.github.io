@@ -1,4 +1,4 @@
-name: Build and deploy to GitHub Pages
+name: Build and Deploy to GitHub Pages
 
 
 on:
@@ -18,17 +18,13 @@ jobs:
 
     steps:
       - name: Set Git user information
+        env:
+          MY_EMAIL: "iotdeeele@gmail.com"
+          MY_NAME: "dee-eletrotecnica"
         run: |
-          git config --global user.email "paulo@planetfone.com.br"
-          git config --global user.name "PauloR43"
-          git remote set-url origin https://PauloR43:${{ secrets.GH_SECRET }}@github.com/dee-eletrotecnica/dee-eletrotecnica.github.io.git
+          git config --global user.email "iotdeeele@gmail.com"
+          git config --global user.name "dee-eletrotecnica"
+          yarn install --frozen-lockfile
+          yarn run build
+          npx gh-pages -d dist
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
-            yarn install --frozen-lockfile
-            yarn run build
-            npx gh-pages -d dist
