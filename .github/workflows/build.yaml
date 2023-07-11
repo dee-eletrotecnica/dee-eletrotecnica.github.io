@@ -18,7 +18,9 @@ jobs:
 
     steps:
       - name: Set Git user information
-        run: git config  user.email "paulo@planetfone.com.br"
+        run: |
+          git config  user.email "paulo@planetfone.com.br"
+          git config  user.name "PauloR43"
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
@@ -26,7 +28,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           token: ${{ secrets.GH_SECRET }}
       - run: |
-            git config  user.name "PauloR43"
             yarn install --frozen-lockfile
             yarn run build
             npx gh-pages -d dist
