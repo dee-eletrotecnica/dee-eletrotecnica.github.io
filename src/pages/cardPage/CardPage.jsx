@@ -12,7 +12,7 @@ export const CardPage = ({ content }) => {
             <div className="wrapper">
                 <div className="container">
                     <h1>{content.title}</h1>
-                    <div className="line"></div>
+                    <div className="separator"></div>
                     <article>{content.description}</article>
                 </div>
             </div>
