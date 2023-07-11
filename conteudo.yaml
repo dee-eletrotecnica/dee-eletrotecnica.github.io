@@ -1,10 +1,11 @@
 ---
 - repositories:
     repo1:
-      color: "#0000FF"
+      color: "#8294C4"
       url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
+      imageUrl: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png?raw=true"
       title: "Ecossistema-didatico"
-      description: "Descrição..."
+      description: "A utilização de sistemas reais em ambiente acadêmico nem sempre é aplicável devido a fatores como a dimensão do espaço físico ou dos aquipamentos, características técnicas, requisitos elétricos, condições de segurança física e o custo e disponibilidade de recursos financeiros associado a estes tipos de montagens."
       items:
         item1:
           title: "Kit internet das coisas (IoT)"
@@ -16,7 +17,7 @@
           title: "OpenPLC"
           url: "https://github.com/Epaminondaslage/OpenPLC"
     repo2:
-      color: "#008000"
+      color: "#A0C49D"
       url: ""
       title: "Titulo"
       description: "Descrição..."
@@ -25,7 +26,7 @@
         item2: "Item 2"
         item3: "Item 3"
     repo3:
-      color: "#FFFF00"
+      color: "#FFD4B2"
       url: ""
       title: "Titulo"
       description: "Descrição..."
@@ -34,7 +35,7 @@
         item2: "Item 2"
         item3: "Item 3"
     repo4:
-      color: "#800080"
+      color: "#FD8A8A"
       url: ""
       title: "Titulo"
       description: "Descrição..."
@@ -43,7 +44,7 @@
         item2: "Item 2"
         item3: "Item 3"
     repo5:
-      color: "#800080"
+      color: "#B9F3E4"
       url: ""
       title: "Titulo"
       description: "gytytytytytytytytytyt..."

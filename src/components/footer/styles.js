@@ -8,5 +8,6 @@ margin: 0 auto;
 
 @media (min-width: 768px) {
    position: relative;
+   margin-top: 50px;
   }
 `

@@ -1,0 +1,27 @@
+---
+- pages:
+    page1:
+      color: "#8294C4"
+      url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
+      imageUrl: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png?raw=true"
+      
+    page2:
+      color: "#A0C49D"
+      url: ""
+      title: "Titulo"
+      
+    page3:
+      color: "#FFD4B2"
+      url: ""
+      title: "Titulo"
+      
+    page4:
+      color: "#FD8A8A"
+      url: ""
+      title: "Titulo"
+     
+    page5:
+      color: "#B9F3E4"
+      url: ""
+      title: "Titulo"
+      

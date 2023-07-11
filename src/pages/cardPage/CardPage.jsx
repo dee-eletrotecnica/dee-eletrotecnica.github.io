@@ -1,4 +1,5 @@
 import { CardPageStyles } from "./styles"
+import { ReactMarkdown } from "react-markdown/lib/react-markdown"
 
 
 import { Header } from "../../components/header"
@@ -8,8 +9,13 @@ export const CardPage = ({ content }) => {
     return (
         <CardPageStyles>
             <Header />
-            <h1>{content.title}</h1>
-            <p>{content.description}</p>
+            <div className="wrapper">
+                <div className="container">
+                    <h1>{content.title}</h1>
+                    <div className="line"></div>
+                    <article>{content.description}</article>
+                </div>
+            </div>
         </CardPageStyles>
     )
 }

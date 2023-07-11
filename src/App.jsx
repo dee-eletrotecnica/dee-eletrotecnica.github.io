@@ -4,16 +4,17 @@ import { Home } from './pages/home/Home';
 import { Routes, Route} from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import content from "../conteudo.yaml";
+import { getRawMarkdown } from './utils/getRawMarkdown';
 
 
 function App() {
 
   const [repoObj, setRepoObj] = useState([]);
+  const [pageObj, setPageObj] = useState([""]);
   
   async function buscarDados(repositories) {
     for (let repo in repositories) {
-      // LEMBRAR DE RETORNAR O MARKDOWN CRU
-      // const result = await getRawMarkdown(url);
+      const rawMarkdown = await getRawMarkdown(repositories[repo]);
       setRepoObj(prevState => [...Array.from(new Set(prevState)), repositories[repo]]);
     }
   }
