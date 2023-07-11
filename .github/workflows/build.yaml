@@ -22,6 +22,8 @@ jobs:
           git config --global user.email "iotdeeele@gmail.com"
           git config --global user.name "dee-eletrotecnica"
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_SECRET }}
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
