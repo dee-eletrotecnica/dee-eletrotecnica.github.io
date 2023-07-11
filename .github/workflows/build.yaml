@@ -9,10 +9,13 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         node-version: [18.16.0]
+        
     steps:
         run: |
           git config --global user.email "paulo@planetfone.com.br"
