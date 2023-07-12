@@ -38,7 +38,7 @@
       imageUrl: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Ecossistema-Open-Automa%C3%A7%C3%A3o.png"
       title: "Automação industrial e residencial - Ecossistema didático com Open Software e Open Hardware"
       description: "Este repositório disponibiliza aos alunos conteúdos,programas, manuais, tutoriais e kits para laboratórios que propiciam aos alunos projetar, montar e testar seus conhecimentos visando despertar a curiosidade em aprimorar tantos os aspectos teóricos quanto práticos na área de automação residêncial e industrial, controle e acionamento e Internet das coisas"
-        items:
+      items:
           item1:
             title: "Item 1"
             url: ""
