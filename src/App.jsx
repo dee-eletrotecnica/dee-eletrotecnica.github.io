@@ -7,27 +7,27 @@ import content from "../conteudo.yaml";
 import { getRawMarkdown } from './utils/getRawMarkdown';
 import TurndownService from 'turndown';
 
-const turndownService = new TurndownService({
-  headingStyle: 'setext',
-  hr: '* * *',
-  bulletListMarker: '*',
-  codeBlockStyle: 'indented',
-  fence: '```',
-  emDelimiter: '_',
-  strongDelimiter: '**',
-  linkStyle: 'inlined',
-  linkReferenceStyle: 'full',
-  br: '  ',
-  blankReplacement: function (content, node) {
-    return node.isBlock ? '\n\n' : ''
-  },
-  keepReplacement: function (content, node) {
-    return node.isBlock ? '\n\n' + node.outerHTML + '\n\n' : node.outerHTML
-  },
-  defaultReplacement: function (content, node) {
-    return node.isBlock ? '\n\n' + content + '\n\n' : content
-  }
-})
+// const turndownService = new TurndownService({
+//   headingStyle: 'setext',
+//   hr: '* * *',
+//   bulletListMarker: '*',
+//   codeBlockStyle: 'indented',
+//   fence: '```',
+//   emDelimiter: '_',
+//   strongDelimiter: '**',
+//   linkStyle: 'inlined',
+//   linkReferenceStyle: 'full',
+//   br: '  ',
+//   blankReplacement: function (content, node) {
+//     return node.isBlock ? '\n\n' : ''
+//   },
+//   keepReplacement: function (content, node) {
+//     return node.isBlock ? '\n\n' + node.outerHTML + '\n\n' : node.outerHTML
+//   },
+//   defaultReplacement: function (content, node) {
+//     return node.isBlock ? '\n\n' + content + '\n\n' : content
+//   }
+// })
 
 function App() {
 
@@ -36,9 +36,9 @@ function App() {
   
   async function buscarDados(repositories) {
     for (let repo in repositories) {
-      const rawMarkdown = await getRawMarkdown(repositories[repo]);
-      const html = turndownService.turndown(rawMarkdown.data);
-      setPage(prevState => [...Array.from(new Set(prevState)), html]);
+      // const rawMarkdown = await getRawMarkdown(repositories[repo]);
+      // const html = turndownService.turndown(rawMarkdown.data);
+      // setPage(prevState => [...Array.from(new Set(prevState)), html]);
       setRepoObj(prevState => [...Array.from(new Set(prevState)), repositories[repo]]);
     }
   }
