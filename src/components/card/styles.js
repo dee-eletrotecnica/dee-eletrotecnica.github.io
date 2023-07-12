@@ -53,6 +53,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         img {
             width: 50%;
             transform: scale(1);
+            object-fit: contain;
         }
     }
 

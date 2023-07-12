@@ -26,7 +26,7 @@ export const Card = ({color, url, title, desc, items, imageUrl}) => {
             </div>
             </div>
             <div className="button">
-            <Link to={url} className="linkto">Ler mais</Link>
+            <Link to={url} target="_blank" rel="noreferrer" className="linkto">Ler mais</Link>
             </div>
             </div>
         </div>
