@@ -219,6 +219,7 @@ Error generating stack: `+o.message+`
         img {
             width: 50%;
             transform: scale(1);
+            object-fit: contain;
         }
     }
 
@@ -322,7 +323,7 @@ Error generating stack: `+o.message+`
             border-bottom: 1px solid ${e=>e.color};
         }
     }
-`,YA=({color:e,url:t,title:n,desc:r,items:i,imageUrl:o})=>(D.useEffect(()=>{}),j.jsx(KA,{color:e,children:j.jsxs("div",{className:"card",children:[j.jsx("div",{className:"card-header",children:j.jsx("h3",{className:"card-title",children:n})}),j.jsxs("div",{className:"card-body",children:[j.jsx("div",{className:"card-image",children:j.jsx("img",{src:o,alt:""})}),j.jsxs("div",{className:"card-content",children:[j.jsx("p",{className:"card-desc",children:r}),j.jsxs("div",{className:"card-items",children:[j.jsx("a",{href:i.item1.url,target:"_blank",rel:"noreferrer",className:"card-item",children:i.item1.title}),j.jsx("a",{href:i.item2.url,target:"_blank",rel:"noreferrer",className:"card-item",children:i.item2.title}),j.jsx("a",{href:i.item3.url,target:"_blank",rel:"noreferrer",className:"card-item",children:i.item3.title})]})]}),j.jsx("div",{className:"button",children:j.jsx(yl,{to:t,className:"linkto",children:"Ler mais"})})]})]})})),XA=oi.footer`
+`,YA=({color:e,url:t,title:n,desc:r,items:i,imageUrl:o})=>(D.useEffect(()=>{}),j.jsx(KA,{color:e,children:j.jsxs("div",{className:"card",children:[j.jsx("div",{className:"card-header",children:j.jsx("h3",{className:"card-title",children:n})}),j.jsxs("div",{className:"card-body",children:[j.jsx("div",{className:"card-image",children:j.jsx("img",{src:o,alt:""})}),j.jsxs("div",{className:"card-content",children:[j.jsx("p",{className:"card-desc",children:r}),j.jsxs("div",{className:"card-items",children:[j.jsx("a",{href:i.item1.url,target:"_blank",rel:"noreferrer",className:"card-item",children:i.item1.title}),j.jsx("a",{href:i.item2.url,target:"_blank",rel:"noreferrer",className:"card-item",children:i.item2.title}),j.jsx("a",{href:i.item3.url,target:"_blank",rel:"noreferrer",className:"card-item",children:i.item3.title})]})]}),j.jsx("div",{className:"button",children:j.jsx(yl,{to:t,target:"_blank",rel:"noreferrer",className:"linkto",children:"Ler mais"})})]})]})})),XA=oi.footer`
 width: 100%;
 position: relative;
 bottom: 0;
