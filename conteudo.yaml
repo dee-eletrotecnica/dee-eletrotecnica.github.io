@@ -2,29 +2,36 @@
 - repositories:
     repo1:
       color: "#8294C4"
-      url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
+      url: "https://www.cefetmg.br"
       imageUrl: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png?raw=true"
-      title: "Ecossistema-didático"
-      description: "A utilização de sistemas reais em ambiente acadêmico nem sempre é aplicável devido a fatores como a dimensão do espaço físico ou dos aquipamentos, características técnicas, requisitos elétricos, condições de segurança física e o custo e disponibilidade de recursos financeiros associado a estes tipos de montagens."
+      title: "CEFET-MG"
+      description: "O Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG) é uma autarquia federal brasileira, vinculada ao Ministério da Educação, que oferece ensino médio, cursos técnicos, superiores, pós stricto sensu e lato sensu, contemplando também, de forma indissociada, o ensino, a pesquisa e a extensão, na área tecnológica e no âmbito da pesquisa aplicada. "
       items:
         item1:
-          title: "Kit internet das coisas (IoT)"
-          url: "https://github.com/Epaminondaslage/Kit-IoT#introdu%C3%A7%C3%A3o"
+          title: "Educação Profissional Técnica de Nível Médio"
+          url: "https://www.cefetmg.br/educacao-profissional-tecnica-de-nivel-medio/"
         item2: 
-          title: "Kit SBC Linux"
-          url: "https://github.com/Epaminondaslage/Kit-SBC-Linux#%C3%ADndice"
+          title: "Graduação"
+          url: "https://www.cefetmg.br/graduacao/"
         item3: 
-          title: "OpenPLC"
-          url: "https://github.com/Epaminondaslage/OpenPLC#%C3%ADndice"
+          title: "Pós-Graduação"
+          url: "https://www.cefetmg.br/pos-graduacao/"
     repo2:
       color: "#A0C49D"
-      url: ""
+      url: "https://www.mostra.cefetmg.br/"
+      imageUrl: "https://www.mostra.cefetmg.br/wp-content/uploads/sites/110/2017/07/LogoMostra.png"
       title: "Título"
-      description: "Descrição..."
+      description: "Nesta edição os cursos serão apresentados nos seus respectivos espaços de aula. Esta é uma boa oportunidade para que o visitante possa conhecer o cotidiano da nossa instituição, se aproximando mais da estrutura disponível para cada curso. A visitação do público poderá ser realizada entre os dias 21 (segunda-feira) e 25 (sexta feira) de agosto de 2023, nas duas unidades de BH."
       items:
-        item1: "Item 1"
-        item2: "Item 2"
-        item3: "Item 3"
+        item1: 
+          title: "title: "Como Chegar"
+          url: "https://www.mostra.cefetmg.br/como-chegar/"
+        item2: 
+          title: "title: "Como Chegar"
+          url: "https://www.mostra.cefetmg.br/como-chegar/"
+        item3:
+          title: "title: " Inscrições"
+          url: "https://www.mostra.cefetmg.br/inscricao/"
     repo3:
       color: "#FFD4B2"
       url: ""
