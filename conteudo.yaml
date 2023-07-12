@@ -21,11 +21,11 @@
       url: "https://www.mostra.cefetmg.br/"
       imageUrl: "https://www.mostra.cefetmg.br/wp-content/uploads/sites/110/2017/07/LogoMostra.png"
       title: "Título"
-      description: "Nesta edição os cursos serão apresentados nos seus respectivos espaços de aula. Esta é uma boa oportunidade para que o visitante possa conhecer o cotidiano da nossa instituição, se aproximando mais da estrutura disponível para cada curso. A visitação do público poderá ser realizada entre os dias 21 (segunda-feira) e 25 (sexta feira) de agosto de 2023, nas duas unidades de BH."
+      description: "A Mostra de Cursos é realizada anualmente pelo CEFET-MG com o objetivo apresentar a toda comunidade de Belo Horizonte e da região metropolitana interessada, quais são os cursos ofertados pela Instituição desde o nível Técnico, Graduação e Pós-Graduação (mestrado e doutorado). Destaca-se que, por ser uma instituição pública e federal todos os seus cursos regulares são gratuitos e acessíveis através de processo seletivo."
       items:
         item1: 
-          title: "Como Chegar"
-          url: "https://www.mostra.cefetmg.br/como-chegar/"
+          title: "Apresentação"
+          url: "https://www.mostra.cefetmg.br/apresentacao/"
         item2: 
           title: "Como Chegar"
           url: "https://www.mostra.cefetmg.br/como-chegar/"
