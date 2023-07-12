@@ -10,9 +10,6 @@ export const Home = () => {
 
   const [repoObj, setRepoObj] = useState([]);
   
-  {repoObj.map(item => (
-    console.log(item.imageUrl)
-))} 
 
   async function buscarDados(repositories) {
     for (let repo in repositories) {
