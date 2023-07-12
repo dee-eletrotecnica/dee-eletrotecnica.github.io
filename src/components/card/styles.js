@@ -47,6 +47,8 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         display: flex;
         justify-content: center;
         width: 100%;
+        min-height: 185px;
+        max-height: 185px;
         border-bottom: 1px solid rgba(0, 0, 0, .2);
         img {
             width: 50%;
@@ -73,16 +75,38 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
     .card-desc {
         font-weight: 300;
         font-size: 17px;
+        height: 75px;
         color: rgba(0, 0, 0, .5);
         text-align: center;
-        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
         text-overflow: ellipsis;
         font-family: 'Times New Roman', Times, serif;
         margin: 0;
         padding: 10px;
         /* border: .5px inset; */
-        border-radius: 5px;
+        border-radius: 8px;
         /* background-color: rgba(255,255,255, .1); */
+}
+
+.card-descdiv::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.card-desc::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+.card-desc::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
 }
 
     

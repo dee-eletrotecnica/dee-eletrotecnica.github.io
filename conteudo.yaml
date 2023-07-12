@@ -2,35 +2,36 @@
 - repositories:
     repo1:
       color: "#8294C4"
-      url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
+      url: "https://www.cefetmg.br"
       imageUrl: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png?raw=true"
-      title: "Ecossistema-didático"
-      description: "Automação Industrial e Residêncial com Open Software e Open Hardware"
+      title: "CEFET-MG"
+      description: "O Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG) é uma autarquia federal brasileira, vinculada ao Ministério da Educação, que oferece ensino médio, cursos técnicos, superiores, pós stricto sensu e lato sensu, contemplando também, de forma indissociada, o ensino, a pesquisa e a extensão, na área tecnológica e no âmbito da pesquisa aplicada. "
       items:
         item1:
-          title: "Kit internet das coisas (IoT)"
-          url: "https://github.com/Epaminondaslage/Kit-IoT#introdu%C3%A7%C3%A3o"
+          title: "Educação Profissional Técnica de Nível Médio"
+          url: "https://www.cefetmg.br/educacao-profissional-tecnica-de-nivel-medio/"
         item2: 
-          title: "Kit SBC Linux"
-          url: "https://github.com/Epaminondaslage/Kit-SBC-Linux#%C3%ADndice"
+          title: "Graduação"
+          url: "https://www.cefetmg.br/graduacao/"
         item3: 
-          title: "OpenPLC"
-          url: "https://github.com/Epaminondaslage/OpenPLC#%C3%ADndice"
+          title: "Pós-Graduação"
+          url: "https://www.cefetmg.br/pos-graduacao/"
     repo2:
       color: "#A0C49D"
-      url: ""
+      url: "https://www.mostra.cefetmg.br/"
+      imageUrl: "https://www.mostra.cefetmg.br/wp-content/uploads/sites/110/2017/07/LogoMostra.png"
       title: "Título"
-      description: "Descrição..."
+      description: "A Mostra de Cursos é realizada anualmente pelo CEFET-MG com o objetivo apresentar a toda comunidade de Belo Horizonte e da região metropolitana interessada, quais são os cursos ofertados pela Instituição desde o nível Técnico, Graduação e Pós-Graduação (mestrado e doutorado). Destaca-se que, por ser uma instituição pública e federal todos os seus cursos regulares são gratuitos e acessíveis através de processo seletivo."
       items:
-        item1:
-          title: "Item 1"
-          url: ""
+        item1: 
+          title: "Apresentação"
+          url: "https://www.mostra.cefetmg.br/apresentacao/"
         item2: 
-          title: "Item 1"
-          url: ""
-        item3: 
-          title: "Item 3"
-          url: ""
+          title: "Como Chegar"
+          url: "https://www.mostra.cefetmg.br/como-chegar/"
+        item3:
+          title: "Inscrições"
+          url: "https://www.mostra.cefetmg.br/inscricao/"
     repo3:
       color: "#FFD4B2"
       url: ""
