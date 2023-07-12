@@ -5,7 +5,7 @@
       url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
       imageUrl: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png?raw=true"
       title: "Ecossistema-didático"
-      description: "A utilização de sistemas reais em ambiente acadêmico nem sempre é aplicável devido a fatores como a dimensão do espaço físico ou dos aquipamentos, características técnicas, requisitos elétricos, condições de segurança física e o custo e disponibilidade de recursos financeiros associado a estes tipos de montagens."
+      description: "Automação Industrial e Residêncial com Open Software e Open Hardware"
       items:
         item1:
           title: "Kit internet das coisas (IoT)"
@@ -22,33 +22,57 @@
       title: "Título"
       description: "Descrição..."
       items:
-        item1: "Item 1"
-        item2: "Item 2"
-        item3: "Item 3"
+        item1:
+          title: "Item 1"
+          url: ""
+        item2: 
+          title: "Item 1"
+          url: ""
+        item3: 
+          title: "Item 3"
+          url: ""
     repo3:
       color: "#FFD4B2"
       url: ""
       title: "Titulo"
       description: "Descrição..."
       items:
-        item1: "Item 1"
-        item2: "Item 2"
-        item3: "Item 3"
+        item1:
+          title: "Item 1"
+          url: ""
+        item2: 
+          title: "Item 1"
+          url: ""
+        item3: 
+          title: "Item 3"
+          url: ""
     repo4:
       color: "#FD8A8A"
       url: ""
       title: "Titulo"
       description: "Descrição..."
       items:
-        item1: "Item 1"
-        item2: "Item 2"
-        item3: "Item 3"
+        item1:
+          title: "Item 1"
+          url: ""
+        item2: 
+          title: "Item 1"
+          url: ""
+        item3: 
+          title: "Item 3"
+          url: ""
     repo5:
       color: "#B9F3E4"
       url: ""
       title: "Titulo"
       description: "gytytytytytytytytytyt..."
       items:
-        item1: "Item 1"
-        item2: "Item 2"
-        item3: "Item 3"
+        item1:
+          title: "Item 1"
+          url: ""
+        item2: 
+          title: "Item 1"
+          url: ""
+        item3: 
+          title: "Item 3"
+          url: ""

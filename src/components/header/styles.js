@@ -14,8 +14,7 @@ export const HeaderStyles = styled.div`
   -webkit-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.14);
   -moz-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.14);
 
-  background: rgb(77,77,255);
-  background: linear-gradient(353deg, rgba(77,77,255,1) 0%, rgba(10,54,157,1) 100%);
+  background: linear-gradient(353deg, rgba(77,50,200,1) 0%, rgba(10,54,157,1) 100%);
 
   .header-logo {
     img {

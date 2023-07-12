@@ -18,7 +18,7 @@ export const Card = ({color, url, title, desc, items, imageUrl}) => {
             <img src={imageUrl} alt="" />
             </div>
             <div className="card-content">
-            {/* <p className="card-text">{desc}</p> */}
+            <p className="card-desc">{desc}</p>
             <div className="card-items">
                 <a href={items.item1.url} target="_blank" rel="noreferrer" className="card-item">{items.item1.title}</a>
                 <a href={items.item2.url} target="_blank" rel="noreferrer" className="card-item">{items.item2.title}</a>

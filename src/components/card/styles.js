@@ -18,8 +18,8 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         text-align: start;
         border: 1px solid ${(props) => props.color};;
         border-radius: 8px;
-        min-height: 410px;
-        max-height: 410px;
+        min-height: 450px;
+        max-height: 450px;
         @media (max-width: 385px) { 
         max-width: 300px;
         min-width: 300px;
@@ -40,7 +40,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         justify-content: space-between;
         align-items: center;
         padding: 8px;
-        gap: 30px;
+        height: 450px;
     }
 
     .card-image {
@@ -70,19 +70,30 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .card-text {
+    .card-desc {
         font-weight: 300;
-        white-space: nowrap;
+        font-size: 17px;
+        color: rgba(0, 0, 0, .5);
+        text-align: center;
         overflow: hidden;
         text-overflow: ellipsis;
         font-family: 'Times New Roman', Times, serif;
-    }
+        margin: 0;
+        padding: 10px;
+        /* border: .5px inset; */
+        border-radius: 5px;
+        /* background-color: rgba(255,255,255, .1); */
+}
+
+    
 
     .card-content {
         display: flex;
+        height: 100%;
         width: 100%;
         flex-direction: column;
         line-height: 1.5rem;
+        justify-content: space-between;
     }
 
     .card-item {
@@ -92,12 +103,13 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         font-weight: 200;
         border-bottom: 1px solid transparent;
         text-align: center;
+        border-bottom: 1px solid ${(props) => props.color};
     }
 
     .card-items {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
     .card-item:hover {
