@@ -29,7 +29,6 @@ export const Home = () => {
         {/* <CarouselComponent /> */}
         <div className="wrapper">
         <div className="title">
-              <h1>Início</h1>
             </div>
           <main className="container">
             {repoObj.map((item, i) => (

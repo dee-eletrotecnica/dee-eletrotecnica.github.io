@@ -5,7 +5,7 @@ import { CardPage } from "../../pages/cardPage/CardPage";
 import pages from "../../../paginas.yaml";
 
 export const Card = ({color, url, title, desc, items, imageUrl, page}) => {
-console.log("🚀 ~ file: index.jsx:8 ~ Card ~ page:", page)
+console.log("🚀 ~ file: index.jsx:8 ~ Card ~ imageUrl:", imageUrl)
 // console.log(pages[0].pages[page])
 //     const [pageObj, setPageObj] = useState([]);
   
