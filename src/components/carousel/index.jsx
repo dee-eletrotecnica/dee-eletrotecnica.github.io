@@ -16,15 +16,15 @@ export const CarouselComponent = () => {
                 width={500}
             >
                 <div>
-                    <img src="src\assets\logo.png" />
+                    <img src="src\img\logo.png" />
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src="src\assets\example.jpg" />
+                    <img src="src\img\example.jpg" />
                     <p className="legend">Legend 2</p>
                 </div>
                 <div>
-                    <img src="assets/3.jpeg" />
+                    <img src="img/3.jpeg" />
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
