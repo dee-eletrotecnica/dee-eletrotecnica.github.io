@@ -1,27 +1,168 @@
 ---
 - pages:
     page1:
-      color: "#8294C4"
-      url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
-      imageUrl: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png?raw=true"
+      links:
+        link1:
+          title: ""
+          url: ""
+        link2:
+          title: ""
+          url: ""
+        link3:
+          title: ""
+          url: ""
+        link4:
+          title: ""
+          url: ""
+        link5:
+          title: ""
+          url: ""
+        link6:
+          title: ""
+          url: ""
+        link7:
+          title: ""
+          url: ""
+        link8:
+          title: ""
+          url: ""
+        link9:
+          title: ""
+          url: ""
+        link10:
+          title: ""
+          url: ""
+
       
     page2:
-      color: "#A0C49D"
-      url: ""
-      title: "Titulo"
+      links:
+        link1:
+          title: ""
+          url: ""
+        link2:
+          title: ""
+          url: ""
+        link3:
+          title: ""
+          url: ""
+        link4:
+          title: ""
+          url: ""
+        link5:
+          title: ""
+          url: ""
+        link6:
+          title: ""
+          url: ""
+        link7:
+          title: ""
+          url: ""
+        link8:
+          title: ""
+          url: ""
+        link9:
+          title: ""
+          url: ""
+        link10:
+          title: ""
+          url: ""
       
     page3:
-      color: "#FFD4B2"
-      url: ""
-      title: "Titulo"
+      links:
+        link1:
+          title: ""
+          url: ""
+        link2:
+          title: ""
+          url: ""
+        link3:
+          title: ""
+          url: ""
+        link4:
+          title: ""
+          url: ""
+        link5:
+          title: ""
+          url: ""
+        link6:
+          title: ""
+          url: ""
+        link7:
+          title: ""
+          url: ""
+        link8:
+          title: ""
+          url: ""
+        link9:
+          title: ""
+          url: ""
+        link10:
+          title: ""
+          url: ""
       
     page4:
-      color: "#FD8A8A"
-      url: ""
-      title: "Titulo"
+      links:
+        link1:
+          title: ""
+          url: ""
+        link2:
+          title: ""
+          url: ""
+        link3:
+          title: ""
+          url: ""
+        link4:
+          title: ""
+          url: ""
+        link5:
+          title: ""
+          url: ""
+        link6:
+          title: ""
+          url: ""
+        link7:
+          title: ""
+          url: ""
+        link8:
+          title: ""
+          url: ""
+        link9:
+          title: ""
+          url: ""
+        link10:
+          title: ""
+          url: ""
      
     page5:
-      color: "#B9F3E4"
-      url: ""
-      title: "Titulo"
+      links:
+        link1:
+          title: ""
+          url: ""
+        link2:
+          title: ""
+          url: ""
+        link3:
+          title: ""
+          url: ""
+        link4:
+          title: ""
+          url: ""
+        link5:
+          title: ""
+          url: ""
+        link6:
+          title: ""
+          url: ""
+        link7:
+          title: ""
+          url: ""
+        link8:
+          title: ""
+          url: ""
+        link9:
+          title: ""
+          url: ""
+        link10:
+          title: ""
+          url: ""
       

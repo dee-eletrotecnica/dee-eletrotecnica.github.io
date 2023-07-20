@@ -18,8 +18,8 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         text-align: start;
         border: 1px solid ${(props) => props.color};;
         border-radius: 8px;
-        min-height: 450px;
-        max-height: 450px;
+        min-height: 485px;
+        max-height: 485px;
         @media (max-width: 385px) { 
         max-width: 300px;
         min-width: 300px;
@@ -27,11 +27,26 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
     }
 
     .card-header {
-        width: 100%;
-        height: 50px;
+        @media (max-width: 385px) {
+            width: 100%;
+            height: 50px;
+        }
+        display: flex;
+        align-items: center;
+        width: 381px;
+        max-width: 381px;
         background-color: ${(props) => props.color}; 
         margin: 0 auto;
         border-radius: 8px 8px 0px 0px;
+
+        svg {
+            margin-right: 1rem;
+            color: white;
+            cursor: pointer;
+        }& svg:hover {
+            margin-right: .2rem;
+            width: 30px;
+        }
     }
 
     .card-body {
@@ -64,6 +79,13 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         }
     }
 
+    .card-readmore {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .card-title {
         text-align: center;
         height: 100%;
@@ -71,6 +93,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         font-weight: bold;
         color: rgba(0, 0, 0, .5);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
     }
 
     .card-desc {

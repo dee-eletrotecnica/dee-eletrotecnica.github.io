@@ -1,11 +1,28 @@
 import { CardStyle } from "./styles"
 import { Link } from "react-router-dom"
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { CardPage } from "../../pages/cardPage/CardPage";
-export const Card = ({color, url, title, desc, items, imageUrl}) => {
-    
-    useEffect(() => {
-    })
+import pages from "../../../paginas.yaml";
+
+export const Card = ({color, url, title, desc, items, imageUrl, page}) => {
+console.log("🚀 ~ file: index.jsx:8 ~ Card ~ page:", page)
+// console.log(pages[0].pages[page])
+//     const [pageObj, setPageObj] = useState([]);
+  
+
+//   async function buscarDados(pages) {
+//     for (let page in pages) {
+//       console.log(pages[page]);
+//       setPageObj(prevState => [...Array.from(new Set(prevState)), pages[page]]);
+//     }   
+//   }
+
+//   console.log(pageObj);
+  
+//   useEffect(() => {
+//     buscarDados(pages[0].pages);
+//     console.log(pageObj);
+//     }, []);
 
     return (
         <CardStyle color={color}>
@@ -25,7 +42,8 @@ export const Card = ({color, url, title, desc, items, imageUrl}) => {
                 <a href={items.item3.url} target="_blank" rel="noreferrer" className="card-item">{items.item3.title}</a>
             </div>
             </div>
-            <div className="button">
+            <div className="card-readmore">
+            <Link key={url} to={title} element={<CardPage page={page} />} className="linkto">Acessar</Link>
             <Link to={url} target="_blank" rel="noreferrer" className="linkto">Ler mais</Link>
             </div>
             </div>

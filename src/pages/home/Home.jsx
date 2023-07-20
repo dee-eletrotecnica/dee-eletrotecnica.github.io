@@ -4,6 +4,7 @@ import { Footer } from '../../components/footer';
 import { CarouselComponent } from '../../components/carousel';
 import { useState, useEffect } from 'react';
 import content from "../../../conteudo.yaml";
+import paginas from "../../../paginas.yaml";
 
 
 export const Home = () => {
@@ -16,6 +17,7 @@ export const Home = () => {
       setRepoObj(prevState => [...Array.from(new Set(prevState)), repositories[repo]]);
     }
   }
+
   
   useEffect(() => {
     buscarDados(content[0].repositories);
@@ -26,12 +28,15 @@ export const Home = () => {
         <Header />
         {/* <CarouselComponent /> */}
         <div className="wrapper">
+        <div className="title">
+              <h1>Início</h1>
+            </div>
           <main className="container">
-            {repoObj.map(item => (
+            {repoObj.map((item, i) => (
               <div key={item.url}>
-                <Card url={item.url} title={item.title} desc={item.description} items={item.items} color={item.color} imageUrl={item.imageUrl}/>
+                <Card page={`page${i+1}`} url={item.url} title={item.title} desc={item.description} items={item.items} color={item.color} imageUrl={item.imageUrl}/>
               </div>
-          ))} 
+            ))} 
           </main>
         </div>
         <Footer />
