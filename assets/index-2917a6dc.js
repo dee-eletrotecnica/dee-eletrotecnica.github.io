@@ -53,6 +53,10 @@ ul {
     }
 
     .container {
+
+        @media (max-width: 768px) {
+            margin: 1rem;
+        }   
         
         display: flex;
         width: 100%;
@@ -67,7 +71,7 @@ ul {
         }
 
         .links {
-            width: 100vw;
+            width: 100%;
             /* display: flex; */
             /* flex-wrap: wrap; */
             /* align-items: center;
