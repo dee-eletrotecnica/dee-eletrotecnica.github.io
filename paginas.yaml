@@ -22,7 +22,7 @@
     page2:
       links:
         link1:
-          title: ""
+          title: "Link 1 da Página 2"
           url: ""
         link2:
           title: ""
