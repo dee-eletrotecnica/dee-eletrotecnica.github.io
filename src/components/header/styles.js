@@ -6,7 +6,7 @@ export const HeaderStyles = styled.header`
   margin-bottom: 2%;
 
   @media (max-width: 768px) {
-    margin-bottom: 15%;
+    /* margin-bottom: 15%; */
   }
 
   @media (max-width: 385px) {
@@ -62,6 +62,6 @@ export const HeaderStyles = styled.header`
   }
 
   @media (max-width: 768px) {
-    height: 60px;
+    /* height: 60px; */
   }
 `

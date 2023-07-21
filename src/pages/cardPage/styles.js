@@ -1,10 +1,21 @@
 import styled from "styled-components"
 
 export const CardPageStyles = styled.div`
-    
-    .container {
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .wrapper {
         margin: 0 10%;
-        /* height: 100vh; */
+        display: flex;
+    }
+
+    .container {
+        
+        display: flex;
+        width: 100%;
         
         h1 {
             color: rgba(0,0,0,.5);
@@ -16,16 +27,43 @@ export const CardPageStyles = styled.div`
         }
 
         .links {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
+            width: 100vw;
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            /* align-items: center;
+            justify-content: center; */
             margin-bottom: 5rem;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: 8px;
+            padding: 1.2rem;
             gap: 30px;
 
-            .link {
-                outline: 1px solid red;
-                width: 100%;
+            /* .link {
+                display: flex;
+                flex-direction: column;
+                outline: 1px solid rgba(0,0,0,.2);
+                border-radius: 8px;
+                width: 500px;
                 height: 200px;
+                padding: 15px;
+
+                /* .separator {
+                    width: 100%;
+                    border-bottom: 1px solid rgba(0,0,0,.2);
+                } */
+
+                .link-header {
+                    text-align: left;
+                    p {
+                        height: 35px;
+                        border-bottom: 1px solid rgba(0,0,0,.2);
+                        width: max-content;
+                    }
+                }
+
+                .link-body {
+                    text-align: left;
+                }
             }
         }
     }

@@ -3,20 +3,20 @@
     page1:
       links:
         link1:
-          title: "Link 1 da Página 1"
+          title: "Titulo 1"
           url: ""
-          desc: "Descrição 1 da Página 1"
+          desc: "Descrição..."
         link2:
-          title: "Link 2 da Página 1"
+          title: "Titulo 2"
           url: ""
         link3:
-          title: "Link 3 da Página 1"
+          title: "Titulo 3"
           url: ""
         link4:
-          title: "Link 4 da Página 1"
+          title: "Titulo 4"
           url: ""
         link5:
-          title: "Link 5 da Página 1"
+          title: "Titulo 5"
           url: ""
 
       

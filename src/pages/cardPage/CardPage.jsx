@@ -18,7 +18,6 @@ export const CardPage = ({ content }) => {
     
       
       useEffect(() => {
-        console.log(pages[0].pages[pageNumber].links)
         buscarDados(pages[0].pages[pageNumber].links);
         }, []);
 
@@ -36,16 +35,19 @@ export const CardPage = ({ content }) => {
                     <h1>{content.title}</h1>
                     <div className="separator"></div>
                     <article>{content.description}</article>
-                    <div className="links">
+                    <ul className="links">
                         {pageObj.map((link, i) => (
-                            <div className="link">
-                                <a key={link.url+i} href={link.url}>{link.title}</a>
-                                <div className="link-body">
+                            <li className="link">
+                                <header className="link-header">
+                                    <h2>{link.title}</h2>
+                                </header>
+                                <section className="link-body">
                                     <p>{link.desc}</p>
-                                </div>
-                            </div>
+                                    <a href="#">Link</a>
+                                </section>
+                            </li>
                         ))}
-                    </div>
+                    </ul>
                 </div>
             </div>
         </CardPageStyles>
