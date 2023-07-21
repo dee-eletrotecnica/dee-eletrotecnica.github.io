@@ -23,6 +23,8 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         @media (max-width: 385px) { 
         max-width: 300px;
         min-width: 300px;
+        max-height: 550px;
+        min-height: 550px;
     }
     }
 
