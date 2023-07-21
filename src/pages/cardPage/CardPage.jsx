@@ -1,7 +1,5 @@
 import pages from "../../../paginas.yaml";
 import { CardPageStyles } from "./styles";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import remarkGfm from "remark-gfm";
 import { Header } from "../../components/header";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -40,7 +38,12 @@ export const CardPage = ({ content }) => {
                     <article>{content.description}</article>
                     <div className="links">
                         {pageObj.map((link, i) => (
-                            <a key={link.url+i} href={link.url}>{link.title}</a>
+                            <div className="link">
+                                <a key={link.url+i} href={link.url}>{link.title}</a>
+                                <div className="link-body">
+                                    <p>{link.desc}</p>
+                                </div>
+                            </div>
                         ))}
                     </div>
                 </div>

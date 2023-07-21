@@ -5,6 +5,7 @@
         link1:
           title: "Link 1 da Página 1"
           url: ""
+          desc: "Descrição 1 da Página 1"
         link2:
           title: "Link 2 da Página 1"
           url: ""

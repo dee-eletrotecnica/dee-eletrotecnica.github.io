@@ -16,9 +16,17 @@ export const CardPageStyles = styled.div`
         }
 
         .links {
+            width: 100%;
             display: flex;
             flex-direction: column;
             margin-bottom: 5rem;
+            gap: 30px;
+
+            .link {
+                outline: 1px solid red;
+                width: 100%;
+                height: 200px;
+            }
         }
     }
 `

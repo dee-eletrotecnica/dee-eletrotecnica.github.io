@@ -74,7 +74,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         border-bottom: 1px solid rgba(0, 0, 0, .2);
         img {
             width: 50%;
-            transform: scale(1);
+            transform: scale(1.5);
             object-fit: contain;
         }
     }
@@ -82,7 +82,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
     .card-image:hover {
         img {
             transition: ease-in-out .3s;
-            transform: scale(1.1);
+            transform: scale(1.4);
         }
     }
 
@@ -106,7 +106,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
     .card-desc {
         font-weight: 300;
         font-size: 17px;
-        height: 75px;
+        height: 130px;
         color: rgba(0, 0, 0, .5);
         text-align: center;
         overflow-y: scroll;
@@ -120,7 +120,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         /* background-color: rgba(255,255,255, .1); */
 
         @media (max-width: 450px) {
-        height: 100px;
+        height: 130px;
 /*         max-height: 550px;
         min-height: 550px; */
     }
@@ -143,7 +143,8 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
 {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  background-color: #555;
+  background-color: dodgerblue;
+  color: dodgerblue;
 }
 
 

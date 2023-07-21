@@ -33,7 +33,7 @@ export const Home = () => {
           <main className="container">
             {repoObj.map((item, i) => (
               <div key={item.url}>
-                <Card page={`page${i+1}`} url={item.url} title={item.title} desc={item.description} items={item.items} color={item.color} imageUrl={item.imageUrl}/>
+                <Card key={item.url+i} page={`page${i+1}`} url={item.url} title={item.title} desc={item.description} items={item.items} color={item.color} imageUrl={item.imageUrl}/>
               </div>
             ))} 
           </main>
