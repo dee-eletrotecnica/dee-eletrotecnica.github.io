@@ -3,34 +3,19 @@
     page1:
       links:
         link1:
-          title: ""
+          title: "Link 1 da Página 1"
           url: ""
         link2:
-          title: ""
+          title: "Link 2 da Página 2"
           url: ""
         link3:
-          title: ""
+          title: "Link 3 da Página 3"
           url: ""
         link4:
-          title: ""
+          title: "Link 4 da Página 4"
           url: ""
         link5:
-          title: ""
-          url: ""
-        link6:
-          title: ""
-          url: ""
-        link7:
-          title: ""
-          url: ""
-        link8:
-          title: ""
-          url: ""
-        link9:
-          title: ""
-          url: ""
-        link10:
-          title: ""
+          title: "Link 5 da Página 5"
           url: ""
 
       
@@ -51,21 +36,6 @@
         link5:
           title: ""
           url: ""
-        link6:
-          title: ""
-          url: ""
-        link7:
-          title: ""
-          url: ""
-        link8:
-          title: ""
-          url: ""
-        link9:
-          title: ""
-          url: ""
-        link10:
-          title: ""
-          url: ""
       
     page3:
       links:
@@ -82,21 +52,6 @@
           title: ""
           url: ""
         link5:
-          title: ""
-          url: ""
-        link6:
-          title: ""
-          url: ""
-        link7:
-          title: ""
-          url: ""
-        link8:
-          title: ""
-          url: ""
-        link9:
-          title: ""
-          url: ""
-        link10:
           title: ""
           url: ""
       
@@ -117,21 +72,6 @@
         link5:
           title: ""
           url: ""
-        link6:
-          title: ""
-          url: ""
-        link7:
-          title: ""
-          url: ""
-        link8:
-          title: ""
-          url: ""
-        link9:
-          title: ""
-          url: ""
-        link10:
-          title: ""
-          url: ""
      
     page5:
       links:
@@ -148,21 +88,6 @@
           title: ""
           url: ""
         link5:
-          title: ""
-          url: ""
-        link6:
-          title: ""
-          url: ""
-        link7:
-          title: ""
-          url: ""
-        link8:
-          title: ""
-          url: ""
-        link9:
-          title: ""
-          url: ""
-        link10:
           title: ""
           url: ""
       
