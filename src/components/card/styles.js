@@ -26,6 +26,11 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
 /*         max-height: 550px;
         min-height: 550px; */
     }
+
+    @media (max-width: 420px) {
+        max-height: 600px;
+        min-height: 550px;
+    }
     }
 
     .card-header {
@@ -113,6 +118,12 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         /* border: .5px inset; */
         border-radius: 8px;
         /* background-color: rgba(255,255,255, .1); */
+
+        @media (max-width: 450px) {
+        height: 100px;
+/*         max-height: 550px;
+        min-height: 550px; */
+    }
 }
 
 .card-descdiv::-webkit-scrollbar-track
