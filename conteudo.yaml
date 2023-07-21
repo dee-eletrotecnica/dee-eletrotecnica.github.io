@@ -3,7 +3,7 @@
     repo1:
       color: "#8294C4"
       url: "https://www.cefetmg.br"
-      imageUrl: "images/01_logo_cefet_padrao.png"
+      imageUrl: "./images/01_logo_cefet_padrao.png"
       title: "CEFET-MG"
       description: "O Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG) é uma autarquia federal brasileira, vinculada ao Ministério da Educação, que oferece ensino médio, cursos técnicos, superiores, pós stricto sensu e lato sensu, contemplando também, de forma indissociada, o ensino, a pesquisa e a extensão, na área tecnológica e no âmbito da pesquisa aplicada. "
       items:
@@ -19,7 +19,7 @@
     repo2:
       color: "#A0C49D"
       url: ""
-      imageUrl: "images/02_logo_mostra_padrao.png"
+      imageUrl: "./images/02_logo_mostra_padrao.png"
       title: "Mostra de Cursos 2023"
       description: "A Mostra de Cursos é realizada anualmente pelo CEFET-MG com o objetivo apresentar a toda comunidade de Belo Horizonte e da região metropolitana interessada, quais são os cursos ofertados pela Instituição desde o nível Técnico, Graduação e Pós-Graduação (mestrado e doutorado). Destaca-se que, por ser uma instituição pública e federal todos os seus cursos regulares são gratuitos e acessíveis através de processo seletivo."
       items:
@@ -35,7 +35,7 @@
     repo3:
       color: "#FFD4B2"
       url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
-      imageUrl: "images/03_Ecossistema_Open_Automacao_padrao.png"
+      imageUrl: "./images/03_Ecossistema_Open_Automacao_padrao.png"
       title: "Ecossistema didático"
       description: "Este repositório disponibiliza aos alunos conteúdos,programas, manuais, tutoriais e kits para laboratórios que propiciam aos alunos projetar, montar e testar seus conhecimentos visando despertar a curiosidade em aprimorar tantos os aspectos teóricos quanto práticos na área de automação residêncial e industrial, controle e acionamento e Internet das coisas"
       items:
@@ -51,7 +51,7 @@
     repo4:
       color: "#FD8A8A"
       url: ""
-      imageUrl: "images/04_automacao_industrial.png"
+      imageUrl: "./images/04_automacao_industrial.png"
       title: "Trabalhos de Automação Industrial"
       description: "A automação industrial com software de código aberto está transformando a maneira como as empresas operam e gerenciam seus processos de produção, oferecendo flexibilidade, personalização e redução de custos. Com soluções de automação industrial de código aberto, as empresas podem adaptar os sistemas às suas necessidades, aproveitar melhorias contínuas da comunidade de desenvolvedores e economizar em licenças e desenvolvimento observando que é essencial garantir a segurança e a confiabilidade das soluções adotadas."
       items:
@@ -67,7 +67,7 @@
     repo5:
       color: "#B9F3E4"
       url: ""
-      imageUrl: "images/05_automacao_residencial.png"
+      imageUrl: "./images/05_automacao_residencial.png"
       title: "Trabalhos de Automação Residencial"
       description: "A automação residencial de código aberto promove a interoperabilidade entre diferentes dispositivos e sistemas. Com padrões abertos e APIs disponíveis, é possível integrar facilmente uma variedade de dispositivos inteligentes, como lâmpadas, termostatos, câmeras de segurança e sistemas de entretenimento e até industriais, em um único ecossistema controlado centralmente."
       items:
