@@ -174,6 +174,8 @@ Error generating stack: `+o.message+`
         @media (max-width: 385px) { 
         max-width: 300px;
         min-width: 300px;
+        max-height: 550px;
+        min-height: 550px;
     }
     }
 
