@@ -19,12 +19,12 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         border: 1px solid ${(props) => props.color};;
         border-radius: 8px;
         min-height: 485px;
-        max-height: 485px;
-        @media (max-width: 385px) { 
+        /* max-height: 485px; */
+        @media (max-width: 385px) {
         max-width: 300px;
         min-width: 300px;
-        max-height: 550px;
-        min-height: 550px;
+/*         max-height: 550px;
+        min-height: 550px; */
     }
     }
 
@@ -37,7 +37,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
         align-items: center;
         width: 381px;
         max-width: 381px;
-        background-color: ${(props) => props.color}; 
+        background-color: ${(props) => props.color};
         margin: 0 auto;
         border-radius: 8px 8px 0px 0px;
 
@@ -135,7 +135,7 @@ export const CardStyle = styled.div.attrs((props) => ({color: props.color, image
   background-color: #555;
 }
 
-    
+
 
     .card-content {
         display: flex;
