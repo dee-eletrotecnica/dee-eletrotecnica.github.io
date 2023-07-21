@@ -25,7 +25,7 @@
       items:
         item1: 
           title: "Apresentação"
-          url: "https://www.mostra.cefetmg.br/apresentacao/"
+          url: "https://www.mostra.cefetmg.br/"
         item2: 
           title: "Como Chegar"
           url: "https://www.mostra.cefetmg.br/como-chegar/"
