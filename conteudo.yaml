@@ -40,14 +40,14 @@
       description: "Este repositório disponibiliza aos alunos conteúdos,programas, manuais, tutoriais e kits para laboratórios que propiciam aos alunos projetar, montar e testar seus conhecimentos visando despertar a curiosidade em aprimorar tantos os aspectos teóricos quanto práticos na área de automação residêncial e industrial, controle e acionamento e Internet das coisas"
       items:
           item1:
-            title: "Automação Residencial"
-            url: ""
+            title: "Ecossistema-didatico"
+            url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico#readme"
           item2: 
-            title: "Automação Industrial"
-            url: ""
+            title: "Automação Residencial"
+            url: "xxxxxxxxxxxx"
           item3: 
-            title: "Infraestrutura de redes"
-            url: ""
+            title: "Automação Industrial"
+            url: "xxxxxxxxxxxx"
     repo4:
       color: "#FD8A8A"
       url: ""
@@ -56,14 +56,14 @@
       description: "A automação industrial com software de código aberto está transformando a maneira como as empresas operam e gerenciam seus processos de produção, oferecendo flexibilidade, personalização e redução de custos. Com soluções de automação industrial de código aberto, as empresas podem adaptar os sistemas às suas necessidades, aproveitar melhorias contínuas da comunidade de desenvolvedores e economizar em licenças e desenvolvimento observando que é essencial garantir a segurança e a confiabilidade das soluções adotadas."
       items:
         item1:
-          title: "Item 1"
-          url: ""
+          title: "OpenPLC"
+          url: "https://github.com/Epaminondaslage/OpenPLC#readme"
         item2: 
-          title: "Item 1"
-          url: ""
+          title: "OpenPLC e Modbus"
+          url: "https://github.com/Epaminondaslage/openplc-modbus"
         item3: 
-          title: "Item 3"
-          url: ""
+          title: "Comunicação OpenPLC-HomeAssistant"
+          url: "https://github.com/Epaminondaslage/HomeAssistant-OpenPLC"
     repo5:
       color: "#B9F3E4"
       url: ""
@@ -72,11 +72,11 @@
       description: "A automação residencial de código aberto promove a interoperabilidade entre diferentes dispositivos e sistemas. Com padrões abertos e APIs disponíveis, é possível integrar facilmente uma variedade de dispositivos inteligentes, como lâmpadas, termostatos, câmeras de segurança e sistemas de entretenimento e até industriais, em um único ecossistema controlado centralmente."
       items:
         item1:
-          title: "Item 1"
-          url: ""
+          title: "Plataforma Home Assistant"
+          url: "https://github.com/Epaminondaslage/HomeAssistant#readme"
         item2: 
-          title: "Item 1"
-          url: ""
+          title: "Telegram e Home Assistant"
+          url: "https://github.com/Epaminondaslage/HomeAssistant-Telegram"
         item3: 
-          title: "Item 3"
-          url: ""
+          title: "NodeRED"
+          url: "https://github.com/Epaminondaslage/HomeAssistant-NodeRED"
