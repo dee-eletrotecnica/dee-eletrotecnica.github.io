@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://dee-eletrotecnica.github.io/dee-eletrotecnica",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
