@@ -170,12 +170,12 @@ Error generating stack: `+o.message+`
         border: 1px solid ${e=>e.color};;
         border-radius: 8px;
         min-height: 485px;
-        max-height: 485px;
-        @media (max-width: 385px) { 
+        /* max-height: 485px; */
+        @media (max-width: 385px) {
         max-width: 300px;
         min-width: 300px;
-        max-height: 550px;
-        min-height: 550px;
+/*         max-height: 550px;
+        min-height: 550px; */
     }
     }
 
@@ -188,7 +188,7 @@ Error generating stack: `+o.message+`
         align-items: center;
         width: 381px;
         max-width: 381px;
-        background-color: ${e=>e.color}; 
+        background-color: ${e=>e.color};
         margin: 0 auto;
         border-radius: 8px 8px 0px 0px;
 
@@ -286,7 +286,7 @@ Error generating stack: `+o.message+`
   background-color: #555;
 }
 
-    
+
 
     .card-content {
         display: flex;
