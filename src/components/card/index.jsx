@@ -32,7 +32,7 @@ console.log("🚀 ~ file: index.jsx:8 ~ Card ~ imageUrl:", imageUrl)
             </div>
             <div className="card-body">
             <div className="card-image">
-            <img src={imageUrl} alt="" />
+            <img src={imageUrl} alt={title} />
             </div>
             <div className="card-content">
             <p className="card-desc">{desc}</p>
