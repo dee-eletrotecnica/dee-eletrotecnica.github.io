@@ -3,7 +3,7 @@
     repo1:
       color: "#8294C4"
       url: "https://www.cefetmg.br"
-      imageUrl: "blob/main/images/01_logo_cefet_padrao.png"
+      imageUrl: "https://raw.githubusercontent.com/dee-eletrotecnica/dee-eletrotecnica.github.io/main/images/01_logo_cefet_padrao.png"
       title: "CEFET-MG"
       description: "O Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG) é uma autarquia federal brasileira, vinculada ao Ministério da Educação, que oferece ensino médio, cursos técnicos, superiores, pós stricto sensu e lato sensu, contemplando também, de forma indissociada, o ensino, a pesquisa e a extensão, na área tecnológica e no âmbito da pesquisa aplicada. "
       items:
