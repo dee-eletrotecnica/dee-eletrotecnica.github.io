@@ -1,3 +1,5 @@
+# Caso exista url configurada, o link "Ler mais" irá redirecionar para o SITE EXTERNO, caso contrário, irá para a pagina DEDICADA do card.
+# Para configurar a página do card, edite o arquivo "paginas.yaml"
 ---
 - repositories:
     repo1:

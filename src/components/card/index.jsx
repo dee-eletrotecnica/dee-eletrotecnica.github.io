@@ -42,8 +42,12 @@ export const Card = ({color, url, title, desc, items, imageUrl, page}) => {
             </div>
             </div>
             <div className="card-readmore">
+            {url.length > 0 ? (
+                <Link to={url} target="_blank" rel="noreferrer" className="linkto">Ler mais</Link>
+            ) :
             <Link key={url} to={title} element={<CardPage/>} state={{page}} className="linkto">Ler mais</Link>
-            {/* <Link to={url} target="_blank" rel="noreferrer" className="linkto">Ler mais</Link> */}
+            }
+                
             </div>
             </div>
         </div>
