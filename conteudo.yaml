@@ -59,13 +59,13 @@
       items:
         item1:
           title: "OpenPLC"
-          url: "https://github.com/Epaminondaslage/OpenPLC#readme"
+          url: "https://github.com/Epaminondaslage/OpenPLC"
         item2: 
           title: "OpenPLC e Modbus"
           url: "https://github.com/Epaminondaslage/openplc-modbus"
         item3: 
-          title: "Comunicação OpenPLC-HomeAssistant"
-          url: "https://github.com/Epaminondaslage/HomeAssistant-OpenPLC"
+          title: "Primeiro Programa no OpenPLC"
+          url: "https://github.com/Epaminondaslage/OpenPLC/tree/master/primeirodiagrama"
     repo5:
       color: "#B9F3E4"
       url: ""
