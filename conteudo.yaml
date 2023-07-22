@@ -37,7 +37,7 @@
     repo3:
       color: "#FFD4B2"
       url: ""
-      imageUrl: "https://raw.githubusercontent.com/dee-eletrotecnica/dee-eletrotecnica.github.io/main/images/03_Ecossistema_Open_Automacao_padrao.png"
+      imageUrl: "https://github.com/dee-eletrotecnica/dee-eletrotecnica.github.io/blob/main/images/Ecossistema%20Open%20Automac%CC%A7a%CC%83o.png"
       title: "Ecossistema didático"
       description: "Este repositório disponibiliza aos alunos conteúdos,programas, manuais, tutoriais e kits para laboratórios que propiciam aos alunos projetar, montar e testar seus conhecimentos visando despertar a curiosidade em aprimorar tantos os aspectos teóricos quanto práticos na área de automação residêncial e industrial, controle e acionamento e Internet das coisas"
       items:
