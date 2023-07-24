@@ -26,8 +26,26 @@
         link5:
           title: ""
           url: ""
-      
+
     page3:
+      links:
+        link1:
+          title: ""
+          url: ""
+        link2:
+          title: ""
+          url: ""
+        link3:
+          title: ""
+          url: ""
+        link4:
+          title: ""
+          url: ""
+        link5:
+          title: ""
+          url: ""
+          
+    page4:
       links:
         link1:
           title: "OpenPLC"
@@ -57,33 +75,18 @@
           title: "Diagramas de comandos elétricos de motores "
           url: "https://github.com/Epaminondaslage/Diagramas-de-comandos-eletricos-de-motores/"
           desc: "A disciplina "Laboratório de Acionamentos Elétricos" no CEFET-MG  é uma matéria com foco no estudo dos sistemas de acionamento utilizados para controlar e operar motores elétricos. Essa disciplina parte integrante do Curso técnico de Eletrotécnica, aborda temas relacionados à interpretação e montagem física de diagramas de acionamento de motores elétricos e automação industrial."
-         
-    page4:
-      links:
-        link1:
-          title: ""
-          url: ""
-        link2:
-          title: ""
-          url: ""
-        link3:
-          title: ""
-          url: ""
-        link4:
-          title: ""
-          url: ""
-        link5:
-          title: ""
-          url: ""
+        
      
     page5:
       links:
         link1:
-          title: ""
-          url: ""
+          title: "Home Assistant"
+          url: "https://github.com/Epaminondaslage/HomeAssistant"
+          desc: "O Home Assistant é uma plataforma de automação residencial descentralizada, gratuita e de código aberto. Ele possibilita o controle de atuadores, interpretação de dados coletados por sensores, implementação de regras de automação e gerenciamento da comunicação entre dispositivos."
         link2:
-          title: ""
-          url: ""
+          title: "Home Assistant e NodeRED"
+          url: "https://github.com/Epaminondaslage/HomeAssistant-NodeRED"
+          desc: "O Node-RED é uma ferramenta de desenvolvimento gráfico que facilita a conexão e automação de dispositivos de hardware, APIs e serviços online. Sua abordagem visual permite que desenvolvedores criem aplicações IoT (Internet das Coisas) industriais ou residenciais de maneira mais intuitiva e eficiente."
         link3:
           title: ""
           url: ""
