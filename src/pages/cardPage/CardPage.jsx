@@ -43,7 +43,7 @@ export const CardPage = ({ content }) => {
                                 </header>
                                 <section className="link-body">
                                     <p>{link.desc}</p>
-                                    <a href="#">Link</a>
+                                    <a href={link.url} target="_blank" rel="noreferrer">Abrir Repositório</a>
                                 </section>
                             </li>
                         ))}
