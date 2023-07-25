@@ -72,15 +72,16 @@ ul {
 
         .links {
             width: 100%;
-        /* display: flex; */
-            /* flex-wrap: wrap; */
-            /* align-items: center;
-            justify-content: center; */
             margin-bottom: 5rem;
             border: 1px solid rgba(0,0,0,.2);
             border-radius: 8px;
             padding: 1.2rem;
             gap: 30px;
+
+            .link {
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                padding: 1rem;
+            }
 
             /* .link {
                 display: flex;
