@@ -20,7 +20,7 @@
           url: "https://www.cefetmg.br/pos-graduacao/"
     repo2:
       color: "#A0C49D"
-      url: ""
+      url: "https://www.mostra.cefetmg.br/"
       imageUrl: "https://raw.githubusercontent.com/dee-eletrotecnica/dee-eletrotecnica.github.io/main/images/02_logo_mostra_padrao.png"
       title: "Mostra de Cursos 2023"
       description: "A Mostra de Cursos é realizada anualmente pelo CEFET-MG com o objetivo apresentar a toda comunidade de Belo Horizonte e da região metropolitana interessada, quais são os cursos ofertados pela Instituição desde o nível Técnico, Graduação e Pós-Graduação (mestrado e doutorado). Destaca-se que, por ser uma instituição pública e federal todos os seus cursos regulares são gratuitos e acessíveis através de processo seletivo."
@@ -36,20 +36,20 @@
           url: "https://www.mostra.cefetmg.br/inscricao/"
     repo3:
       color: "#FFD4B2"
-      url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
-      imageUrl: "https://raw.githubusercontent.com/dee-eletrotecnica/dee-eletrotecnica.github.io/main/images/03_Ecossistema_Open_Automacao_padrao.png"
+      url: ""
+      imageUrl: "https://raw.githubusercontent.com/dee-eletrotecnica/dee-eletrotecnica.github.io/main/images/6-Ecossistema_Open_Automacao.png"
       title: "Ecossistema didático"
       description: "Este repositório disponibiliza aos alunos conteúdos,programas, manuais, tutoriais e kits para laboratórios que propiciam aos alunos projetar, montar e testar seus conhecimentos visando despertar a curiosidade em aprimorar tantos os aspectos teóricos quanto práticos na área de automação residêncial e industrial, controle e acionamento e Internet das coisas"
       items:
           item1:
             title: "Ecossistema-didatico"
-            url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico#readme"
+            url: "https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico"
           item2: 
             title: "Automação Residencial"
-            url: "xxxxxxxxxxxx"
+            url: "https://github.com/Epaminondaslage/Automacao_Residencial"
           item3: 
             title: "Automação Industrial"
-            url: "xxxxxxxxxxxx"
+            url: "https://github.com/Epaminondaslage/Automacao_Industrial"
     repo4:
       color: "#FD8A8A"
       url: ""
@@ -59,13 +59,13 @@
       items:
         item1:
           title: "OpenPLC"
-          url: "https://github.com/Epaminondaslage/OpenPLC#readme"
+          url: "https://github.com/Epaminondaslage/OpenPLC"
         item2: 
           title: "OpenPLC e Modbus"
           url: "https://github.com/Epaminondaslage/openplc-modbus"
         item3: 
-          title: "Comunicação OpenPLC-HomeAssistant"
-          url: "https://github.com/Epaminondaslage/HomeAssistant-OpenPLC"
+          title: "Primeiro Programa no OpenPLC"
+          url: "https://github.com/Epaminondaslage/OpenPLC/tree/master/primeirodiagrama"
     repo5:
       color: "#B9F3E4"
       url: ""
