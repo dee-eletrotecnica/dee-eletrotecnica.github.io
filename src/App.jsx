@@ -51,7 +51,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}/>
       {Array.from(new Set(repoObj)).map((item, i) => (
-        <Route key={`${item.url}`} path={`/${item.title}`} element={<CardPage content={item} page={page[i]} />}/>
+        // <Route key={`${item.url}`} path={`/${item.title}`} element={<CardPage content={item} page={page[i]} />}/>
+        <Route key={`${item.url}`} path={`/${item.title}`} element={<CardPage content={item} />}/>
         ))} 
       <Route path="*" element={<Home />}/>
     </Routes>

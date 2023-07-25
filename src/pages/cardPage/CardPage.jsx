@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 
 export const CardPage = ({ content }) => {
     const location = useLocation();
-    const pageNumber = location.state.page;
+    const pageNumber = location.state?.page;
 
 
     const [pageObj, setPageObj] = useState([]);
