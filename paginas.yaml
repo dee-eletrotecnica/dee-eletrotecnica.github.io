@@ -71,10 +71,10 @@
           title: "HomeAssistant-OpenPLC"
           url: "https://github.com/Epaminondaslage/HomeAssistant-OpenPLC"
           desc: "Integração entrea as plataformas do Home Assistant e do OpenPLC com Modbus e NodeRED"
-         link7:
+        link7:
           title: "Diagramas de comandos elétricos de motores "
           url: "https://github.com/Epaminondaslage/Diagramas-de-comandos-eletricos-de-motores/"
-          desc: "A disciplina "Laboratório de Acionamentos Elétricos" no CEFET-MG  é uma matéria com foco no estudo dos sistemas de acionamento utilizados para controlar e operar motores elétricos. Essa disciplina parte integrante do Curso técnico de Eletrotécnica, aborda temas relacionados à interpretação e montagem física de diagramas de acionamento de motores elétricos e automação industrial."
+          desc: "A disciplina \"Laboratório de Acionamentos Elétricos\" no CEFET-MG  é uma matéria com foco no estudo dos sistemas de acionamento utilizados para controlar e operar motores elétricos. Essa disciplina parte integrante do Curso técnico de Eletrotécnica, aborda temas relacionados à interpretação e montagem física de diagramas de acionamento de motores elétricos e automação industrial."
         
      
     page5:
