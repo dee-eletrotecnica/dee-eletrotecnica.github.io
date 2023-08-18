@@ -116,14 +116,14 @@
           url: "https://github.com/Epaminondaslage/HomeAssistant-ESPHome"
           desc: "ESPHome é uma estrutura de firmware de código aberto para microcontroladores como ESP8266 e ESP32. Ele permite a configuração e integração de dispositivos IoT personalizados por meio de uma linguagem de configuração baseada em YAML."
         link11:
-          title: "Home Assiatant com ESP32/ESP8266 e ESPHome"
+          title: "Home Assistant com ESP32/ESP8266 e ESPHome"
           url: "https://github.com/Epaminondaslage/HomeAssistant-ESP32-ESP8266-ESPHome"
           desc: "O ESPHome é especialmente popular entre os desenvolvedores e entusiastas de IoT, pois permite o desenvolvimento de dispositivos personalizados e a integração com outros sistemas de automação residencial, como o Home Assistant."
         link12:
-          title: "Home Assiatant e MQTT"
+          title: "Home Assistant e MQTT"
           url: "https://github.com/Epaminondaslage/HomeAssistant-MQTT"
           desc: "O MQTT é um protocolo eficiente e confiável para a comunicação em projetos de IoT e M2M. Sua simplicidade, baixo consumo de recursos e suporte ao modelo Publish/Subscribe o tornam uma escolha popular na troca de dados entre dispositivos"
         link13:
-          title: "Home Assiatant/HacsMQTT"
+          title: "Home Assistant/Hacs"
           url: "https://github.com/Epaminondaslage/HomeAssistant-HACS"
           desc: "HACS- Home Assistant Community Store ou simplesmente a loja da comunidade do Home Assistant."
