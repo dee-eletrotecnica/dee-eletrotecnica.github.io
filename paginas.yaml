@@ -123,3 +123,7 @@
           title: "Home Assiatant e MQTT"
           url: "https://github.com/Epaminondaslage/HomeAssistant-MQTT"
           desc: "O MQTT é um protocolo eficiente e confiável para a comunicação em projetos de IoT e M2M. Sua simplicidade, baixo consumo de recursos e suporte ao modelo Publish/Subscribe o tornam uma escolha popular na troca de dados entre dispositivos"
+        link13:
+          title: "Home Assiatant/HacsMQTT"
+          url: "https://github.com/Epaminondaslage/HomeAssistant-HACS"
+          desc: "HACS- Home Assistant Community Store ou simplesmente a loja da comunidade do Home Assistant."
