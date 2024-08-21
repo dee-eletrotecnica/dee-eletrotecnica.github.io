@@ -22,7 +22,7 @@
       color: "#A0C49D"
       url: "https://www.mostra.cefetmg.br/"
       imageUrl: "https://raw.githubusercontent.com/dee-eletrotecnica/dee-eletrotecnica.github.io/main/images/02_logo_mostra_padrao.png"
-      title: "Mostra de Cursos 2023"
+      title: "Mostra de Cursos 2024"
       description: "A Mostra de Cursos é realizada anualmente pelo CEFET-MG com o objetivo apresentar a toda comunidade de Belo Horizonte e da região metropolitana interessada, quais são os cursos ofertados pela Instituição desde o nível Técnico, Graduação e Pós-Graduação (mestrado e doutorado). Destaca-se que, por ser uma instituição pública e federal todos os seus cursos regulares são gratuitos e acessíveis através de processo seletivo."
       items:
         item1: 
@@ -33,7 +33,7 @@
           url: "https://www.mostra.cefetmg.br/como-chegar/"
         item3:
           title: "Inscrições"
-          url: "https://www.mostra.cefetmg.br/inscricao/"
+          url: "https://www.mostra.cefetmg.br/inscricoes/"
     repo3:
       color: "#FFD4B2"
       url: ""
