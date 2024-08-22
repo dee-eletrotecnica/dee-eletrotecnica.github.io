@@ -406,7 +406,7 @@ margin: 0 auto;
    position: relative;
    margin-top: 50px;
   }
-`,S0=()=>O.jsx(w0,{children:O.jsx("div",{className:"container",children:O.jsx("div",{className:"row",children:O.jsx("div",{children:O.jsx("p",{children:"Copyright © 2023"})})})})});rr.div`
+`,S0=()=>{const e=new Date().getFullYear();return O.jsx(w0,{children:O.jsx("div",{className:"container",children:O.jsx("div",{className:"row",children:O.jsx("div",{children:O.jsxs("p",{children:["Copyright © ",e]})})})})})};rr.div`
   display: flex;
   width: 100%;
   height: 500px;
